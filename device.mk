@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/billie/billie-vendor.mk)
 
-# GoogleCamera
-$(call inherit-product-if-exists, packages/apps/GoogleCamera/config.mk)
+# OnePlusCamera
+$(call inherit-product-if-exists, packages/apps/OnePlusCamera/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
