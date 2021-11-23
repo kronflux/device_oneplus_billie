@@ -12,14 +12,8 @@
     "remote": "pixel-devices-blobs"
   },
   {
-    "repository": "kdrag0n/proton-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
-    "branch": "master",
-    "remote": "github"
-  },
-  {
-    "repository": "KakatkarAkshay/packages_apps_googlecamera",
-    "target_path": "packages/apps/GoogleCamera",
+    "repository": "kronflux/packages_apps_onepluscamera",
+    "target_path": "packages/apps/OnePlusCamera",
     "branch": "eleven",
     "remote": "gitlab"
   },
