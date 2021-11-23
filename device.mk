@@ -184,7 +184,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0:64 \
     com.android.nfc_extras \
     NfcNci \
-    Tag \
+    Tag
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
