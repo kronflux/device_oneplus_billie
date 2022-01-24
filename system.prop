@@ -93,6 +93,10 @@ persist.vendor.qti.inputopts.movetouchslop=0.6
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
 
+# SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM6350
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
