@@ -1,5 +1,19 @@
+on fs
+    #add for tp debug log & to set node gesture_enable
+    chown system system /proc/touchpanel/tp_debug_log
+    chown system system /proc/touchpanel/gesture_enable
+    chown system system /proc/touchpanel/gesture_switch
+    chown system system /proc/touchpanel/tpedge_limit_enable
+    chown system system /proc/touchpanel/tp_switch_dead_zone
+    chown system system /proc/touchpanel/tp_switch_corner_dead_l_zone
+    chown system system /proc/touchpanel/tp_switch_corner_dead_p_zone
+    chown system system /proc/touchpanel/touch_apk
+    chown system system /proc/touchpanel/get_device_temperature
+    chown system system /proc/touchpanel/get_ic_firmware_version
+
 on post-fs
     mount none /odm/lost+found /odm/overlay bind
+    mount none /vendor/lost+found /vendor/etc/init/hw/init.cust.rc bind
 
 on boot
     # Fingerprint

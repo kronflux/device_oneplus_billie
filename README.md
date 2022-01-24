@@ -1,6 +1,6 @@
 # Device Tree for OnePlus Nord N10
 
-The OnePlus Nord N10 is a mid-range smartphone from OnePlus. It was announced in October 2020 and released in November 2020.
+The OnePlus Nord N10 5G is a mid-range smartphone from OnePlus. It was announced in October 2020 and released in November 2020.
 
 ## Device specifications
 
@@ -27,6 +27,4 @@ The OnePlus Nord N10 is a mid-range smartphone from OnePlus. It was announced in
 
 ## Device picture
 
-![OnePlus Nord N10](https://i.imgur.com/qef4EBe.png)
-
-Copyright (C) 2020 The LineageOS Project
+![OnePlus Nord N10 5G](https://i.imgur.com/qef4EBe.png)

@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/billie/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# API
+PRODUCT_SHIPPING_API_LEVEL := 29
+
 # PixelExperience Properties
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -41,6 +44,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlusN10 \
     PRODUCT_NAME=OnePlusN10 \
-    PRIVATE_BUILD_DISC="OnePlusN10-user 11 RKQ1.201217.002-2109301843 release-keys"
-
-BUILD_FINGERPRINT := "OnePlus/OnePlusN10/OnePlusN10:11/RKQ1.201217.002/2109301843:user/release-keys"

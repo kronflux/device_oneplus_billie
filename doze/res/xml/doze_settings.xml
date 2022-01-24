@@ -20,37 +20,23 @@
     <SwitchPreference
         android:key="always_on_display"
         android:disableDependentsState="true"
+        android:icon="@drawable/ic_eye"
         android:title="@string/ambient_display_always_on_title"
         android:summary="@string/ambient_display_always_on_summary"
-        android:persistent="false" 
-	android:icon="@drawable/ic_eye" />
+        android:persistent="false" />
 
     <PreferenceCategory
         android:key="pickup_sensor"
         android:title="@string/pickup_sensor_title">
 
-        <SwitchPreference
-            android:key="gesture_pick_up"
-            android:defaultValue="false"
+        <ListPreference
+            android:key="gesture_pick_up_type"
+            android:defaultValue="0"
+            android:icon="@drawable/ic_pickup"
             android:title="@string/pick_up_gesture_title"
-            android:summary="@string/pick_up_gesture_summary"
-	    android:icon="@drawable/ic_pickup" />
-
-        <SwitchPreference
-            android:defaultValue="false"
-            android:disableDependentsState="true"
-            android:icon="@drawable/ic_raise"
-            android:key="gesture_raise_to_wake"
-            android:summary="@string/raise_to_wake_gesture_summary"
-            android:title="@string/raise_to_wake_gesture_title" />
-
-        <SwitchPreference
-            android:defaultValue="false"
-            android:disableDependentsState="true"
-            android:icon="@drawable/ic_raise"
-            android:key="gesture_raise_to_wake"
-            android:summary="@string/raise_to_wake_gesture_summary"
-            android:title="@string/raise_to_wake_gesture_title" />
+            android:summary="%s"
+            android:entries="@array/pick_up_gesture_entries"
+            android:entryValues="@array/pick_up_gesture_values" />
 
     </PreferenceCategory>
 
@@ -61,9 +47,9 @@
         <SwitchPreference
             android:key="gesture_pocket"
             android:defaultValue="false"
+            android:icon="@drawable/ic_pocket"
             android:title="@string/pocket_gesture_title"
-            android:summary="@string/pocket_gesture_summary"
-	    android:icon="@drawable/ic_pocket" />
+            android:summary="@string/pocket_gesture_summary" />
 
     </PreferenceCategory>
 

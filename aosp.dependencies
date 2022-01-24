@@ -1,15 +1,15 @@
 [
   {
-    "repository": "oneplus-sm6350-devs/kernel_oneplus_billie",
+    "repository": "danascape/kernel_oneplus_billie",
     "target_path": "kernel/oneplus/sm6350",
-    "branch": "lineage-17.1"
+    "branch": "lineage-18.1"
     "remote": "github"
   },
   {
-    "repository": "vendor_oneplus_billie",
+    "repository": "danascape/vendor_oneplus_billie",
     "target_path": "vendor/oneplus/billie",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "branch": "lineage-18.1-prebuilt",
+    "remote": "github"
   },
   {
     "repository": "kronflux/packages_apps_onepluscamera",
@@ -18,9 +18,9 @@
     "remote": "gitlab"
   },
   {
-    "repository": "vendor_oneplus_billie-vendor",
+    "repository": "kronflux/vendor_oneplus_billie-vendor",
     "target_path": "vendor/oneplus/billie-vendor",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "branch": "oos11",
+    "remote": "github"
   }
 ]
