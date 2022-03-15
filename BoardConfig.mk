@@ -105,6 +105,10 @@ TARGET_MODULE_ALIASES += \
     rx_macro_dlkm.ko:audio_rx_macro.ko \
     tx_macro_dlkm.ko:audio_tx_macro.ko
 
+# Kernel modules - WLAN
+TARGET_MODULE_ALIASES += \
+    wlan.ko:qca_cld3_wlan.ko
+
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 BUILD_WITHOUT_VENDOR := true
