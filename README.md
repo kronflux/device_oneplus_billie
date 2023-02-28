@@ -1,3 +1,5 @@
+This repository was used for building AOSP using prebuilt vendor/odm images. It is no longer used and has been archived for reference/historical purposes.
+
 # Device Tree for OnePlus Nord N10
 
 The OnePlus Nord N10 5G is a mid-range smartphone from OnePlus. It was announced in October 2020 and released in November 2020.
